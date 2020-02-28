@@ -62,8 +62,18 @@ This function is the sum of a smooth quadratic part and a nonsmooth and nonconve
 
 Basically, we will need some tricks to tackle this problem. This will be explained soon, but first let's look at the constraints.
 
+.. rst-class:: center
+
+.. image:: data/images/pg_0001.png
+    :align: center  
+    :alt: Illustration of the VPE.
+
 Feasible Set
 ------------
+
+.. image:: data/images/algo_gif.gif
+    :align: center  
+    :alt: Illustration of the VPE.
 
 .. rubric:: Footnotes
 
