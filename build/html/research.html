@@ -4,19 +4,25 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Research &#8212; Loïc VH  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/myStyle.css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <link rel="stylesheet" href="_static/myStyle.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/language_data.js"></script>
-    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -25,14 +31,18 @@
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
+  
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
-  </head><body>
+  </head>
+  <body>
   
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="research">
@@ -49,7 +59,7 @@
 <li>L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
 “<strong>Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints</strong>,”
 2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020. (Submitted,
-<a class="reference download internal" download="" href="_downloads/4a7e212a12102d70d5a12984848634a2/PSCC_2020.pdf"><code class="xref download docutils literal notranslate"><span class="pre">preprint</span></code></a>,
+<a class="reference download internal" href="_downloads/PSCC_2020.pdf" download=""><code class="xref download docutils literal"><span class="pre">preprint</span></code></a>,
 <a class="reference external" href="https://gitlab.com/Loicvh/apla">code</a>)</li>
 </ul>
 </div>
@@ -58,11 +68,11 @@
 <ul class="simple">
 <li>(2019) L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
 “<strong>MILP-Based Algorithm for the Global Solution of Dynamic Economic Dispatch Problems with Valve-Point Effects</strong>,”
-2019 IEEE Power &amp; Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5. (<a class="reference download internal" download="" href="_downloads/cd4cff0795b06d6bc0eb085cfeb1ebfa/PES_2019.pdf"><code class="xref download docutils literal notranslate"><span class="pre">preprint</span></code></a>,
+2019 IEEE Power &amp; Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5. (<a class="reference download internal" href="_downloads/PES_2019.pdf" download=""><code class="xref download docutils literal"><span class="pre">preprint</span></code></a>,
 <a class="reference external" href="https://ieeexplore.ieee.org/document/8973631">IEEE Xplore</a>)</li>
 <li>(2019)  L. Van Hoorebeeck, J. Cavillot, H. Bui-Van, F. Glineur, C. Craeye and E. de Lera Acedo,
 “<strong>Near-field calibration of SKA-Low stations using unmanned aerial vehicles</strong>,”
-13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (<a class="reference download internal" download="" href="_downloads/cd4cff0795b06d6bc0eb085cfeb1ebfa/PES_2019.pdf"><code class="xref download docutils literal notranslate"><span class="pre">preprint</span></code></a>,
+13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (<a class="reference download internal" href="_downloads/PES_2019.pdf" download=""><code class="xref download docutils literal"><span class="pre">preprint</span></code></a>,
 <a class="reference external" href="https://ieeexplore.ieee.org/document/8739380">IEEE Xplore</a>)</li>
 </ul>
 </div>
@@ -75,19 +85,36 @@
 </div>
 <div class="section" id="research-problems">
 <h2>Research Problems<a class="headerlink" href="#research-problems" title="Permalink to this headline">¶</a></h2>
-<p>I am currently interested in the <strong>economic dispatch problem (EDP)</strong>, this problem consists in the optimal allocation of the committed <a class="footnote-reference" href="#f1" id="id1">[1]</a> generating units to meet the system load at lower cost. The objective function is the sum of each unit <span class="math notranslate nohighlight">\(g \in G\)</span> fuel cost at each time step <span class="math notranslate nohighlight">\(t \in T\)</span>. Mathematically it reads,</p>
-<div class="math notranslate nohighlight" id="equation-obj">
+<div class="section" id="economic-dispatch">
+<h3>Economic Dispatch<a class="headerlink" href="#economic-dispatch" title="Permalink to this headline">¶</a></h3>
+<p>I am currently interested in the <strong>economic dispatch problem (EDP)</strong>, this problem consists in the optimal allocation of the committed <a class="footnote-reference" href="#f1" id="id1">[1]</a> generating units to meet the system load at lower cost. The objective function is the sum of each unit <span class="math">\(g \in G\)</span> fuel cost at each time step <span class="math">\(t \in T\)</span>. Mathematically it reads,</p>
+<div class="math" id="equation-obj">
 <span class="eqno">(1)<a class="headerlink" href="#equation-obj" title="Permalink to this equation">¶</a></span>\[ \min \sum_{t \in T} \sum_{g \in G} f_g (p_{gt}),\]</div>
 <p>of course I need to specify the cost functions. In my case, I want to model a physical effect, <em>the valve point loading effect</em> (VPE) which naturally occurs in large gaz power plant such as combined cycle gas turbines (CCGT): when a turbine is loaded <em>at</em> a valve point, that is just before the next valve is opened, the production is optimal, but when a turbine is loaded <em>off</em> a valve point, that is just after the opening of the valve, then the throttling losses increase. This sudden changes in the objective raises computational challenges. Here we model this effect with the following objective function</p>
-<div class="math notranslate nohighlight" id="equation-obj-vpe">
-<span class="eqno">(2)<a class="headerlink" href="#equation-obj-vpe" title="Permalink to this equation">¶</a></span>\[f_g (p_{gt}) = A_g p_{gt}^2 + B_g p_{gt} + C_g + D_g \left | \sin E_g (p_{gt} - p^{\min}_{gt}) \right |  .\]</div>
-<p>This function is the sum of a smooth quadratic part and a nonsmooth and nonconvex rectified sine, and the devil lies in the later. Since the function is nonconvex, it is really difficult to prove the optimality of a point that we think is optimal and because of the nonsmoothness, we lose the vast amount of methods using first and second order information. Basically, the best algorithms and convergence theorems in optimization start with the sentence:</p>
+<div class="math" id="equation-obj-vpe">
+<span class="eqno">(2)<a class="headerlink" href="#equation-obj-vpe" title="Permalink to this equation">¶</a></span>\[f_g (p_{gt}) = \underbrace{A_g p_{gt}^2 + B_g p_{gt} + C_g}_{f^{\text{Q}}_g ({gt})} + \underbrace{D_g \left | \sin E_g (p_{gt} - p^{\min}_{gt}) \right | }_{f^{\text{S}}_g ({gt})}  .\]</div>
+<p>The following plot (in blue) gives an idea of how this function looks like.</p>
+<div class="figure align-center" id="id2">
+<img alt="Illustration of the VPE." src="_images/pg_0001.png" />
+<p class="caption"><span class="caption-text">Figure 1: A term of the objective function for a given generator <span class="math">\(g\)</span> at time <span class="math">\(t\)</span>.</span></p>
+</div>
+<p>This function is the sum of a smooth quadratic part (<span class="math">\(f^{\text{Q}}\)</span>) and a nonsmooth and nonconvex rectified sine (<span class="math">\(f^{\text{S}}\)</span>), and the devil lies in the later. Since the function is nonconvex, it is really difficult to prove the optimality of a point that we think is optimal and because of the nonsmoothness, we cannot use the vast amount of methods using first and second order information. Basically, the best algorithms and convergence theorems in optimization start with the sentence:</p>
 <blockquote class="pull-quote">
-<div>Given a smooth convex function <span class="math notranslate nohighlight">\(f\)</span>…</div></blockquote>
-<p>Basically, we will need some tricks to tackle this problem. This will be explained soon, but first let’s look at the constraints.</p>
-<img alt="Illustration of the VPE." class="center align-center" src="_images/pg_0001.png" />
+<div>Given a smooth convex function <span class="math">\(f\)</span>…</div></blockquote>
+<p>Here, we will need some tricks to tackle this problem. This will be explained soon, but first let’s look at the constraints.</p>
+</div>
 <div class="section" id="feasible-set">
 <h3>Feasible Set<a class="headerlink" href="#feasible-set" title="Permalink to this headline">¶</a></h3>
+<p>The set of constraints can be split into two categories: <em>operational constraints</em>, which consists in making sure that any solution is physically possible. It includes power ranges, ramp rates, network constraints and so on. The second class of constraints are the <em>economic constraints</em> which enforce the fact that we meet the demand and the reserve at each timestep.</p>
+<p>Most of these constraints are boring linear ones, which means that they can easily be tackled. Considering the non boring constraints, we can first talk about the network constraints, some models of the network constraints consider are nonconvex and a lot of work is currently done to integrate these nonconvex model or other semidefinite programming (SDP) and second-order cone (SOC) relaxations. The second non boring constraint I can think of is the economic constraint accounting for the losses. This is often modelled as a quadratic surface, or <em>quadric</em>, which is also nonconvex.</p>
+<p>Great, now we have a nonconvex nonsmooth objective <em>and</em> a nonconvex feasible set… How do we deal with such a problem?</p>
+</div>
+<div class="section" id="algorithm">
+<h3>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h3>
+<p>How do we deal with such a problem? There are two different strategies: i) we target a fast and good solution with a heuristic and ii) we try to have some guarantees with respect to the finale solution. Here, we want to focus on the second case and therefore obtain a good solution along with a lower bound; we want to sandwich the optimal solution. The key here is to use a <em>relaxation</em> defined as follows.</p>
+<blockquote class="pull-quote">
+<div>A <em>relaxation</em> of a given (minimization) optimization problem is another optimization problem of a new function on a new feasible set such that the relaxed objective if an underapproximation of the original objective and the relaxed set contains the original feasible set.</div></blockquote>
+<p>Here with a slight abuse of language, I will consider separately the increasing of the feasible set (which I will call <em>relaxation</em>) and the underapproximation of the objective.</p>
 <img alt="Illustration of the VPE." class="align-center" src="_images/algo_gif.gif" />
 <p class="rubric">Footnotes</p>
 <table class="docutils footnote" frame="void" id="f1" rules="none">
@@ -102,6 +129,7 @@
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -135,8 +163,8 @@
       &copy;2020, Loïc Van Hoorebeeck.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
       <a href="_sources/research.rst.txt"

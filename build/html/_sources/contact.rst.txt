@@ -16,5 +16,3 @@ Office
 | 1348 Louvain-la-Neuve, Belgium
 | :fa:`building` Office A.0.011 (level 0)
 | :fa:`phone` Phone +32 10 47 80 32
-
-

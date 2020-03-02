@@ -12,16 +12,16 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
 
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_fontawesome
 # -- Project information -----------------------------------------------------
 
-project = 'Loïc VH'
-copyright = '2020, Loïc Van Hoorebeeck'
-author = 'Loïc Van Hoorebeeck'
+project = u'Loïc VH'
+copyright = u'2020, Loïc Van Hoorebeeck'
+author = u'Loïc Van Hoorebeeck'
 
 # The short X.Y version
 version = ''
@@ -82,14 +82,10 @@ html_theme = 'alabaster'
 
 html_css_files = [
         'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css',
+#        'http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
 ]
 
-html_theme_options = {
-#        'show_fossasia_logo': 'false',
-#        'nosidebar': 'true', 
-        # 'html_favicon': 'TODO',
-            
-}
+
 html_show_sphinx = False
 
 html_sidebars = {
@@ -207,7 +203,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'loicvh.tex', 'loicvh Documentation',
-     'Loïc Van Hoorebeeck', 'manual'),
+     u'Loïc Van Hoorebeeck', 'manual'),
 ]
 
 
