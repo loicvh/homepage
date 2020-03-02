@@ -1,10 +1,10 @@
 Research
 ========
 
-Research Interests
-~~~~~~~~~~~~~~~~~~
+.. Research Interests
+.. ~~~~~~~~~~~~~~~~~~
 
-- Modeling and Simulation
+.. - Modeling and Simulation
 
 
 Preprint
@@ -23,18 +23,19 @@ Refereed conference papers
 - (2019) L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
   "**MILP-Based Algorithm for the Global Solution of Dynamic Economic Dispatch Problems with Valve-Point Effects**,"
   2019 IEEE Power & Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5. (:download:`preprint <data/PES_2019.pdf>`,
+  `abstract/BibTex <abstracts/PES19.html>`_,
   `IEEE Xplore <https://ieeexplore.ieee.org/document/8973631>`_)
 
 - (2019)  L. Van Hoorebeeck, J. Cavillot, H. Bui-Van, F. Glineur, C. Craeye and E. de Lera Acedo,
   "**Near-field calibration of SKA-Low stations using unmanned aerial vehicles**,"
-  13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (:download:`preprint <data/PES_2019.pdf>`,
+  13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (`abstract/BibTex <abstracts/EUCAP19.html>`_,
   `IEEE Xplore <https://ieeexplore.ieee.org/document/8739380>`__)
 
 
 Thesis
 ~~~~~~
 
-- "**Calibration of the SKA-low antenna array using drones**", Master Thesis, June 2018.
+- "**Calibration of the SKA-low antenna array using drones**," Master Thesis, June 2018.
   (Advisers: C. Craeye and F. Glineur, `pdf <https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A14813>`_)
 
 Research Problems
@@ -68,7 +69,8 @@ The following plot (in blue) gives an idea of how this function looks like.
 
 This function is the sum of a smooth quadratic part (:math:`f^{\text{Q}}`) and a nonsmooth and nonconvex rectified sine (:math:`f^{\text{S}}`), and the devil lies in the later. Since the function is nonconvex, it is really difficult to prove the optimality of a point that we think is optimal and because of the nonsmoothness, we cannot use the vast amount of methods using first and second order information. Basically, the best algorithms and convergence theorems in optimization start with the sentence: 
 
-.. pull-quote::
+.. topic:: Assumptions
+
    Given a smooth convex function :math:`f`...
 
 Here, we will need some tricks to tackle this problem. This will be explained soon, but first let's look at the constraints.
