@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>How to write dates correctly &#8212; Loïc VH  documentation</title>
+    <title>ISO 8601 Wall of Shame &#8212; Loïc VH  documentation</title>
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
@@ -19,7 +19,6 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Blog" href="../blog.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -33,34 +32,35 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="how-to-write-dates-correctly">
-<h1>How to write dates correctly <a class="footnote-reference" href="#f1" id="id1">[1]</a><a class="headerlink" href="#how-to-write-dates-correctly" title="Permalink to this headline">¶</a></h1>
-<p>Times and dates have the reputation to be <a class="reference external" href="https://www.youtube.com/watch?v=-5wpm-gesOY">a nightmare for programmers</a> since the beginning of the internet. Unfortunately, this is also a problem for the users which face a plethora of time format. Depending on the websites, the following date 01/02/03 may refer to</p>
+  <div class="section" id="iso-8601-wall-of-shame">
+<h1>ISO 8601 Wall of Shame<a class="headerlink" href="#iso-8601-wall-of-shame" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li>1st of February 2003;</li>
-<li>2nd of January 2003;</li>
-<li>3rd of February 2001.</li>
+<li><a class="reference external" href="https://problogger.com/">https://problogger.com/</a> -  [Accessed on 2020-03-02]</li>
 </ul>
-<p>This is highly inconvenient and give headaches to both users and programmers. Now, think of how awesome would it be if everybody used the same format, if some kind of organization issued some standards that everybody would follow. Wait… <em>This exists already</em>, and its name is the <strong>ISO</strong>, the International Organization for Standardization. They created in <strong>1988</strong> the <em>ISO 8601</em> on the representation of dates and times.</p>
-<div class="topic">
-<p class="topic-title">ISO 8601</p>
-<p>A date is written</p>
-<blockquote>
-<div>YYYY-MM-DD</div></blockquote>
-<p>with a four-digit year [YYYY], a two-digit month code [MM] and a two-digit day code [DD], separated by a <em>hyphen</em> [-].</p>
-</div>
-<p>Everything you need to know about the <strong>ISO 8601</strong> can be found on its <a class="reference external" href="https://en.wikipedia.org/wiki/ISO_8601">wikipedia page</a>. Do not hesitate to spread the word around you.</p>
-<p>I will myself do my part by inaugurating my own <a class="reference external" href="wall_of_shame.html">ISO 8601 wall of shame</a>.</p>
-<p>Let’s conclude with a relevant xkcd.</p>
-<div class="figure align-center" id="id2">
-<img alt="relevant xkcd" src="https://imgs.xkcd.com/comics/iso_8601.png" />
-<p class="caption"><span class="caption-text">Relevant xkcd [<a class="reference external" href="https://xkcd.com/1179/">source</a>].</span></p>
-</div>
-<p class="rubric">Footnotes</p>
-<table class="docutils footnote" frame="void" id="f1" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<table border="1" class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="31%" />
+<col width="38%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="2">Inputs</th>
+<th class="head">Output</th>
+</tr>
+<tr class="row-even"><th class="head">A</th>
+<th class="head">B</th>
+<th class="head">B</th>
+</tr>
+</thead>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>This article was written on 2020-03-02.</td></tr>
+<tr class="row-odd"><td>False</td>
+<td>False</td>
+<td>False</td>
+</tr>
+<tr class="row-even"><td>True</td>
+<td>False</td>
+<td>True</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -81,14 +81,14 @@
 
 
 <h3>Navigation</h3>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../index.html">   About</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../research.html">   Research</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../teaching.html">   Teaching</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../contact.html">   Contact</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cv.html">   CV</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../misc.html">   Misc</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../blog.html">   Blog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../blog.html">   Blog</a></li>
 </ul>
 
 
@@ -104,7 +104,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
       
       |
-      <a href="../_sources/posts/firt_post.rst.txt"
+      <a href="../_sources/posts/wall_of_shame.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

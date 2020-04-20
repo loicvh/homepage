@@ -43,6 +43,7 @@
 “<strong>Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints</strong>,”
 2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020. (Submitted,
 <a class="reference download internal" download="" href="_downloads/4a7e212a12102d70d5a12984848634a2/PSCC_2020.pdf"><code class="xref download docutils literal notranslate"><span class="pre">preprint</span></code></a>,
+<a class="reference external" href="abstracts/PSCC2020.html">abstract/BibTex</a>,
 <a class="reference external" href="https://gitlab.com/Loicvh/apla">code</a>)</li>
 </ul>
 </div>
@@ -71,20 +72,20 @@
 <h2>Research Problems<a class="headerlink" href="#research-problems" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="economic-dispatch">
 <h3>Economic Dispatch<a class="headerlink" href="#economic-dispatch" title="Permalink to this headline">¶</a></h3>
-<p>I am currently interested in the <strong>economic dispatch problem (EDP)</strong>, this problem consists in the optimal allocation of the committed <a class="footnote-reference" href="#f1" id="id2">[1]</a> generating units to meet the system load at lower cost. The objective function is the sum of each unit <span class="math notranslate nohighlight">\(g \in G\)</span> fuel cost at each time step <span class="math notranslate nohighlight">\(t \in T\)</span>. Mathematically it reads,</p>
+<p>I am currently interested in the <strong>economic dispatch problem (EDP)</strong>, this problem consists in the optimal allocation of the committed <a class="footnote-reference" href="#f1" id="id3">[1]</a> generating units to meet the system load at lower cost. The objective function is the sum of each unit <span class="math notranslate nohighlight">\(g \in G\)</span> fuel cost at each time step <span class="math notranslate nohighlight">\(t \in T\)</span>. Mathematically it reads,</p>
 <div class="math notranslate nohighlight" id="equation-obj">
 <span class="eqno">(1)<a class="headerlink" href="#equation-obj" title="Permalink to this equation">¶</a></span>\[ \min \sum_{t \in T} \sum_{g \in G} f_g (p_{gt}),\]</div>
 <p>of course I need to specify the cost functions. In my case, I want to model a physical effect, <em>the valve point loading effect</em> (VPE) which naturally occurs in large gaz power plant such as combined cycle gas turbines (CCGT): when a turbine is loaded <em>at</em> a valve point, that is just before the next valve is opened, the production is optimal, but when a turbine is loaded <em>off</em> a valve point, that is just after the opening of the valve, then the throttling losses increase. This sudden changes in the objective raises computational challenges. Here we model this effect with the following objective function</p>
 <div class="math notranslate nohighlight" id="equation-obj-vpe">
 <span class="eqno">(2)<a class="headerlink" href="#equation-obj-vpe" title="Permalink to this equation">¶</a></span>\[f_g (p_{gt}) = \underbrace{A_g p_{gt}^2 + B_g p_{gt} + C_g}_{f^{\text{Q}}_g ({gt})} + \underbrace{D_g \left | \sin E_g (p_{gt} - p^{\min}_{gt}) \right | }_{f^{\text{S}}_g ({gt})}  .\]</div>
 <p>The following plot (in blue) gives an idea of how this function looks like.</p>
-<div class="figure align-center" id="id3">
+<div class="figure align-center" id="id4">
 <img alt="Illustration of the VPE." src="_images/pg_0001.png" />
 <p class="caption"><span class="caption-text">Figure 1: A term of the objective function for a given generator <span class="math notranslate nohighlight">\(g\)</span> at time <span class="math notranslate nohighlight">\(t\)</span>.</span></p>
 </div>
 <p>This function is the sum of a smooth quadratic part (<span class="math notranslate nohighlight">\(f^{\text{Q}}\)</span>) and a nonsmooth and nonconvex rectified sine (<span class="math notranslate nohighlight">\(f^{\text{S}}\)</span>), and the devil lies in the later. Since the function is nonconvex, it is really difficult to prove the optimality of a point that we think is optimal and because of the nonsmoothness, we cannot use the vast amount of methods using first and second order information. Basically, the best algorithms and convergence theorems in optimization start with the sentence:</p>
 <div class="topic">
-<p class="topic-title first">Assumptions</p>
+<p class="topic-title">Assumptions</p>
 <p>Given a smooth convex function <span class="math notranslate nohighlight">\(f\)</span>…</p>
 </div>
 <p>Here, we will need some tricks to tackle this problem. This will be explained soon, but first let’s look at the constraints.</p>
@@ -106,7 +107,7 @@
 <table class="docutils footnote" frame="void" id="f1" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id2">[1]</a></td><td>A <em>committed</em> generator is simply a generator which has been scheduled to produce power. Hence, we expect every generator to produce. This makes the EDP much simpler than its cousin, the <em>unit commitment</em>, which has to take every combination of committed unit into account.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id3">[1]</a></td><td>A <em>committed</em> generator is simply a generator which has been scheduled to produce power. Hence, we expect every generator to produce. This makes the EDP much simpler than its cousin, the <em>unit commitment</em>, which has to take every combination of committed unit into account.</td></tr>
 </tbody>
 </table>
 </div>

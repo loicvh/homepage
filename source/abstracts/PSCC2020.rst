@@ -1,0 +1,36 @@
+:orphan:
+
+Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints
+___________________________________________________________________________________________________________
+
+Abstract
+========
+
+Gas units are becoming an increasingly important component of modern power system operations, due to the flexibility that they offer in a regime of large-scale renewable energy integration. The valve point effect refers to the loss of efficiency when operating a turbine off a valve point, that is just after the previous valve opens.   
+The valve point effect for gas power plants is a primary attribute of their operation, however its representation raises computational challenges, due to the non-linear and non-smooth model that is required for representing the fuel cost. In this work, a new heuristic based on successive piecewise approximations of the cost function is described. This heuristic consists in two steps: first, the optimization is run over the whole feasible set and a lower bound for the optimal objective is obtained, then the feasible solutions collected in the previous step are enhanced through local searches. The approach is tested on several IEEE bus systems that have been extended with generators obeying a valve point effect.
+
+BibTex
+======
+
+::
+
+   @unpublished{LVAN20,
+   author={{L. {Van Hoorebeeck} and P. -. A {Absil} and A. {Papavasiliou}}},
+   booktitle={2020 Power Systems Computation Conference ({PSCC})},
+   title={{Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints}},
+   year={2020},
+   volume={},
+   number={},
+   pages={1-8},
+   note={preprint on webpage at \url{perso.uclouvain.be/loic.vanhoorebeeck/abstracts/PSCC2020.html}}
+   }
+
+Reference
+=========
+
+- L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
+  "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**,"
+  2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020. (Submitted,
+  :download:`preprint <../data/PSCC_2020.pdf>`,
+  `abstract/BibTex <PSCC2020.html>`_,
+  `code <https://gitlab.com/Loicvh/apla>`_)

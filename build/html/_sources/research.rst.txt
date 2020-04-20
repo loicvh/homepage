@@ -14,6 +14,7 @@ Preprint
   "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**,"
   2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020. (Submitted,
   :download:`preprint <data/PSCC_2020.pdf>`,
+  `abstract/BibTex <abstracts/PSCC2020.html>`_,
   `code <https://gitlab.com/Loicvh/apla>`_)
 
 
