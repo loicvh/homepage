@@ -10,17 +10,25 @@ Research
 Preprint
 ~~~~~~~~
 
-- L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
-  "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**,"
-  2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020. (Accepted,
-  :download:`preprint <data/PSCC_2020.pdf>`,
-  `abstract/BibTex <abstracts/PSCC2020.html>`_,
-  `code <https://gitlab.com/Loicvh/apla>`_)
 
+Journal papers
+~~~~~~~~~~~~~~
+- (2020) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou, 
+  "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**",
+  Electric Power Systems Research, Volume 189, 2020, ISSN 0378-7796, https://doi.org/10.1016/j.epsr.2020.106786.
+  (:download:`preprint <data/PSCC_2020.pdf>`,
+  `abstract/BibTex <abstracts/EPSR20.html>`_,
+  `code <https://gitlab.com/Loicvh/apla>`_)
 
 Refereed conference papers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+- (2020) L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
+  "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**,"
+  2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020.
+  (:download:`preprint <data/PSCC_2020.pdf>`,
+  `abstract/BibTex <abstracts/PSCC2020.html>`_,
+  `code <https://gitlab.com/Loicvh/apla>`_)
 - (2019) L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
   "**MILP-Based Algorithm for the Global Solution of Dynamic Economic Dispatch Problems with Valve-Point Effects**,"
   2019 IEEE Power & Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5. (:download:`preprint <data/PES_2019.pdf>`,

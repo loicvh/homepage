@@ -4,5 +4,6 @@ Blog
 .. toctree::
    :maxdepth: 1
 
-      First post <posts/firt_post.rst>
-      I have no word <posts/I_have_no_word.rst>
+      How to write dates correctly <posts/1.rst>
+      Persian Paris <posts/2.rst>
+      Planing a bike trip <posts/3.rst>

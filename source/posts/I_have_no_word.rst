@@ -151,14 +151,22 @@ Writing a similar table as before, we would have something like the following
 | 4                 |  0.7210\ **3**\ 96...| 
 +-------------------+----------------------+
 
-The idea now is to consider the real number :math:`c \in [0, 1]` which consists of the elements "on the diagonal", the elements in bold. From this number, 0.98273..., we construct another number :math:`\overline{c} \in [0, 1]` by incrementing each digit: :math:`\overline{c}=0.09384`. This number cannot in any line :math:`n` of the array since by construction, the :math:`n-`\ th digit will be different. Remembering the barber paradox, the question here is not "Who shaves the barber?" but "Which number counts :math:`\overline{c}`?". As we found a contradiction, our hypothesis on the countability of :math:`[0, 1]` must be false, and therefore this set is uncountable.
+The idea now is to consider the real number :math:`c \in [0, 1]` which consists of the elements "on the diagonal", the elements in bold. From this number, 0.98273..., we construct another number :math:`\overline{c} \in [0, 1]` by incrementing each digit: :math:`\overline{c}=0.09384`. This number cannot be in any line :math:`n` of the array since by construction, the :math:`n-`\ th digit will be different. Remembering the barber paradox, the question here is not "Who shaves the barber?" but "Which number counts :math:`\overline{c}`?". As we found a contradiction, our hypothesis on the countability of :math:`[0, 1]` must be false, and therefore this set is uncountable.
 
-Infinity of words
-^^^^^^^^^^^^^^^^^
+(Countable) Infinity of words
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 With this little background of arithmetic, we can prove our first little lemme:
 
-**Lemme 1 (L1): The number of words that can be build with a finite alphabet is countably infinite**
+**Lemma 1 (L1): The number of words that can be build with a finite alphabet is countably infinite**
 
+This Lemma can be proven by simply exhibiting a bijection. Here we simply choose the base-26: "0" is encoded with "z", "1" is encoded with "a" and "2" is encoded with "b". If we want to encode 1236, we note that
+
+.. math:: 1236 = 26^2 \cdot 6 + 26^1 \cdot 21 + 26^0 \cdot 14
+
+since the 6th letter is "F", the 21st letter is "U" and the 14th is "N"; this gives FUN [#bijection]_.
+
+(Uncountable) Infinity of concepts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 .. rubric:: Footnotes
@@ -168,3 +176,5 @@ With this little background of arithmetic, we can prove our first little lemme:
 .. [#f2] Internet of Philosophy, Socrates. Consulted [ONLINE] on 2020-08-09, https://iep.utm.edu/socrates. 
 
 .. [#Kant_critique] Kant, Immanuel, et al. The Critique of Pure Reason. Cambridge University Press, 2009.
+
+.. [#bijection] Notice that here, the proposed mapping is not really a bijection since the number 003 is considered as 3 and we will *not* have the word "zzc". In fact, we proved that the number of (finite) words is greater (or equal) than the number of natural. It suffices to reverse the relation to proof that the cardinality of the natural number is greater than the finite words. Hence, the cardinality of both sets is equal, and the proof is complete.
