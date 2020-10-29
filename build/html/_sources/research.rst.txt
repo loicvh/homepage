@@ -109,6 +109,10 @@ Here with a slight abuse of language, I will consider separately the increasing 
     :align: center  
     :alt: Illustration of the VPE.
 
+--------
+
+This section is work in progress!
+
 .. rubric:: Footnotes
 
 .. [#f1] A *committed* generator is simply a generator which has been scheduled to produce power. Hence, we expect every generator to produce. This makes the EDP much simpler than its cousin, the *unit commitment*, which has to take every combination of committed unit into account.
