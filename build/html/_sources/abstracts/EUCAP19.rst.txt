@@ -33,3 +33,8 @@ Reference
   "**Near-field calibration of SKA-Low stations using unmanned aerial vehicles**,"
   13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (`abstract/BibTex <EUCAP19.html>`_,
   `IEEE Xplore <https://ieeexplore.ieee.org/document/8739380>`__)
+
+Slides
+======
+
+See :download:`here <../data/EUCAP19_slides.pdf>`.

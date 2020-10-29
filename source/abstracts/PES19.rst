@@ -35,3 +35,8 @@ Reference
   2019 IEEE Power & Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5. (:download:`preprint <../data/PES_2019.pdf>`,
   `abstract/BibTex <abstracts/PES19.html>`_,
   `IEEE Xplore <https://ieeexplore.ieee.org/document/8973631>`_)
+
+Slides
+======
+
+See :download:`here <../data/PES19_slides.pdf>`.

@@ -34,3 +34,8 @@ Reference
   (:download:`preprint <../data/PSCC_2020.pdf>`,
   `abstract/BibTex <PSCC2020.html>`_,
   `code <https://gitlab.com/Loicvh/apla>`_)
+
+Slides
+======
+
+See :download:`here <../data/PSCC2020_slides.pdf>`.
