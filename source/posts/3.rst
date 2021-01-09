@@ -53,7 +53,10 @@ v) Conclusion
 
 It may seem a bit tedious to avoid the GAFAM and their business models but, for this specific case, it is not so difficult to have a cheap and effective solution. By the way, I used only once google maps during my whole trip, because *I thought* that it will be easier to reach a camping with maps than with OSMAnd. The journey to the camping was only three kms and maps brought me to such horrible paths that my powerbank fell off my bike, despite being very well attached. This only happened that time...
 
-All the apps I mentioned here can be used on a google-free smartphone, e.g., running `Lineage OS <https://lineageos.org/>`_ with `microG<https://microg.org/>`_. You don't *need* google, folks.
+All the apps I mentioned here can be used on a google-free smartphone, e.g., running `Lineage OS <https://lineageos.org/>`_ with `microG <https://microg.org/>`_. You don't *need* google, folks.
 
 
 .. [1] "F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform."
+
+.. rubric:: Posted on 2020-08-23
+

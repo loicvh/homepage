@@ -3,14 +3,9 @@
 ISO 8601 Wall of Shame
 ______________________
 
-- https://problogger.com/ -  [Accessed on 2020-03-02]
 
+.. csv-table:: The wall
+    :file: wall_of_shame.csv
+    :widths: 30, 30, 40
+    :header-rows: 1
 
-=====  =====  ======
-  Inputs      Output
-------------  ------
-  A      B      B
-=====  =====  ======
-False  False  False
-True   False  True
-=====  =====  ======
