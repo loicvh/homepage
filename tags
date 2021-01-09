@@ -10,7 +10,6 @@
 '	build/html/_static/underscore.js	/^    "'": '&#x27;',$/;"	p	class:escapeMap
 <	build/html/_static/underscore.js	/^    '<': '&lt;',$/;"	p	class:escapeMap
 >	build/html/_static/underscore.js	/^    '>': '&gt;',$/;"	p	class:escapeMap
-Alabaster	src/alabaste/alabaster/support.py	/^class Alabaster(Style):$/;"	c
 ArrayProto	build/html/_static/underscore-1.3.1.js	/^  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;$/;"	v
 ArrayProto	build/html/_static/underscore.js	/^  var ArrayProto = Array.prototype, ObjProto = Object.prototype;$/;"	v
 BUILDDIR	Makefile	/^BUILDDIR      = build$/;"	m
@@ -158,10 +157,7 @@ _.without	build/html/_static/underscore-1.3.1.js	/^  _.without = function(array)
 _.wrap	build/html/_static/underscore-1.3.1.js	/^  _.wrap = function(func, wrapper) {$/;"	f
 _.wrap	build/html/_static/underscore.js	/^  _.wrap = function(func, wrapper) {$/;"	f
 _.zip	build/html/_static/underscore-1.3.1.js	/^  _.zip = function() {$/;"	f
-__version__	src/alabaste/alabaster/_version.py	/^__version__ = ".".join(map(str, __version_info__))$/;"	v
-__version_info__	src/alabaste/alabaster/_version.py	/^__version_info__ = (0, 7, 12)$/;"	v
 _index	build/html/_static/searchtools.js	/^  _index : null,$/;"	p	class:Search
-_locals	src/alabaste/setup.py	/^_locals = {}$/;"	v
 _pulse_status	build/html/_static/searchtools.js	/^  _pulse_status : -1,$/;"	p	class:Search
 _queued_query	build/html/_static/searchtools.js	/^  _queued_query : null,$/;"	p	class:Search
 `	build/html/_static/underscore.js	/^    '`': '&#x60;'$/;"	p	class:escapeMap
@@ -176,9 +172,6 @@ ational	build/html/_static/language_data.js	/^    ational: 'ate',$/;"	p	class:St
 ative	build/html/_static/language_data.js	/^    ative: '',$/;"	p	class:Stemmer.step3list
 ator	build/html/_static/language_data.js	/^    ator: 'ate',$/;"	p	class:Stemmer.step2list
 author	source/conf.py	/^author = u'Loïc Van Hoorebeeck'$/;"	v
-author	src/alabaste/setup.py	/^    author="Jeff Forcier",$/;"	v
-author_email	src/alabaste/setup.py	/^    author_email="jeff@bitprophet.org",$/;"	v
-background_color	src/alabaste/alabaster/support.py	/^    background_color = "#f8f8f8"  # doesn't seem to override CSS 'pre' styling?$/;"	v	class:Alabaster
 baseCreate	build/html/_static/underscore.js	/^  var baseCreate = function(prototype) {$/;"	f
 biliti	build/html/_static/language_data.js	/^    biliti: 'ble',$/;"	p	class:Stemmer.step2list
 bind	build/html/_static/underscore-1.3.1.js	/^  _.bind = function bind(func, context) {$/;"	f
@@ -187,12 +180,10 @@ breaker	build/html/_static/underscore-1.3.1.js	/^  var breaker = {};$/;"	v
 builtinIteratee	build/html/_static/underscore.js	/^  var builtinIteratee;$/;"	v
 cb	build/html/_static/underscore.js	/^  var cb = function(value, context, argCount) {$/;"	f
 chainResult	build/html/_static/underscore.js	/^  var chainResult = function(instance, obj) {$/;"	f
-classifiers	src/alabaste/setup.py	/^    classifiers=[$/;"	v
 collectNonEnumProps	build/html/_static/underscore.js	/^  var collectNonEnumProps = function(obj, keys) {$/;"	f
 computed	build/html/_static/underscore-1.3.1.js	/^    var result = {computed : -Infinity};$/;"	p	class:_.max.result
 computed	build/html/_static/underscore-1.3.1.js	/^    var result = {computed : Infinity};$/;"	p	class:_.min.result
 copyright	source/conf.py	/^copyright = u'2020, Loïc Van Hoorebeeck'$/;"	v
-copyright	src/alabaste/docs/conf.py	/^copyright = u"%d Jeff Forcier" % year$/;"	v
 createAssigner	build/html/_static/underscore.js	/^  var createAssigner = function(keysFunc, defaults) {$/;"	f
 createEscaper	build/html/_static/underscore.js	/^  var createEscaper = function(map) {$/;"	f
 createIndexFinder	build/html/_static/underscore.js	/^  var createIndexFinder = function(dir, predicateFind, sortedIndex) {$/;"	f
@@ -202,8 +193,6 @@ ctor	build/html/_static/underscore-1.3.1.js	/^  var ctor = function(){};$/;"	f
 debounced.cancel	build/html/_static/underscore.js	/^    debounced.cancel = function() {$/;"	f
 deepEq	build/html/_static/underscore.js	/^  deepEq = function(a, b, aStack, bStack) {$/;"	f
 deepGet	build/html/_static/underscore.js	/^  var deepGet = function(obj, path) {$/;"	f
-default_style	src/alabaste/alabaster/support.py	/^    default_style = ""$/;"	v	class:Alabaster
-description	src/alabaste/setup.py	/^    description="A configurable sidebar-enabled Sphinx theme",$/;"	v
 displayNextItem	build/html/_static/searchtools.js	/^    function displayNextItem() {$/;"	f
 eli	build/html/_static/language_data.js	/^    eli: 'e',$/;"	p	class:Stemmer.step2list
 enci	build/html/_static/language_data.js	/^    enci: 'ence',$/;"	p	class:Stemmer.step2list
@@ -217,16 +206,13 @@ eq	build/html/_static/underscore.js	/^  var eq, deepEq;$/;"	v
 escaper	build/html/_static/underscore.js	/^    var escaper = function(match) {$/;"	f	function:createEscaper
 evaluate	build/html/_static/underscore.js	/^    evaluate: \/<%([\\s\\S]+?)%>\/g,$/;"	p	class:_.templateSettings
 exclude_patterns	source/conf.py	/^exclude_patterns = []$/;"	v
-exclude_patterns	src/alabaste/docs/conf.py	/^exclude_patterns = ["_build"]$/;"	v
 excluded	build/html/_static/searchtools.js	/^    var excluded = [];$/;"	v
 executeBound	build/html/_static/underscore.js	/^  var executeBound = function(sourceFunc, boundFunc, context, callingContext, args) {$/;"	f
 extensions	source/conf.py	/^extensions = [$/;"	v
-extensions	src/alabaste/docs/conf.py	/^extensions = []$/;"	v
 fileMap	build/html/_static/searchtools.js	/^    var fileMap = {};$/;"	v
 flatten	build/html/_static/underscore.js	/^  var flatten = function(input, shallow, strict, output) {$/;"	f
 ful	build/html/_static/language_data.js	/^    ful: '',$/;"	p	class:Stemmer.step3list
 fulness	build/html/_static/language_data.js	/^    fulness: 'ful',$/;"	p	class:Stemmer.step2list
-get_path	src/alabaste/alabaster/__init__.py	/^def get_path():$/;"	f
 group	build/html/_static/underscore.js	/^  var group = function(behavior, partition) {$/;"	f
 has	build/html/_static/underscore.js	/^  var has = function(obj, path) {$/;"	f
 help	make.bat	/^:help$/;"	l
@@ -236,11 +222,8 @@ hlterms	build/html/_static/searchtools.js	/^    var hlterms = [];$/;"	v
 html_css_files	source/conf.py	/^html_css_files = [$/;"	v
 html_show_sphinx	source/conf.py	/^html_show_sphinx = False$/;"	v
 html_sidebars	source/conf.py	/^html_sidebars = {$/;"	v
-html_sidebars	src/alabaste/docs/conf.py	/^html_sidebars = {$/;"	v
 html_static_path	source/conf.py	/^html_static_path = ['_static']$/;"	v
 html_theme	source/conf.py	/^html_theme = 'alabaster'$/;"	v
-html_theme	src/alabaste/docs/conf.py	/^html_theme = "alabaster"$/;"	v
-html_theme_options	src/alabaste/docs/conf.py	/^html_theme_options = {$/;"	v
 htmlhelp_basename	source/conf.py	/^htmlhelp_basename = 'loicvhdoc'$/;"	v
 i	build/html/_static/searchtools.js	/^    var i, j, file;$/;"	v
 i	build/html/_static/searchtools.js	/^    var i;$/;"	v
@@ -248,7 +231,6 @@ ical	build/html/_static/language_data.js	/^    ical: 'ic',$/;"	p	class:Stemmer.s
 icate	build/html/_static/language_data.js	/^    icate: 'ic',$/;"	p	class:Stemmer.step3list
 iciti	build/html/_static/language_data.js	/^    iciti: 'ic',$/;"	p	class:Stemmer.step3list
 idCounter	build/html/_static/underscore.js	/^  var idCounter = 0;$/;"	v
-include_package_data	src/alabaste/setup.py	/^    include_package_data=True,$/;"	v
 init	build/html/_static/doctools.js	/^  init : function() {$/;"	m	class:Documentation
 isArrayLike	build/html/_static/underscore.js	/^  var isArrayLike = function(collection) {$/;"	f
 iveness	build/html/_static/language_data.js	/^    iveness: 'ive',$/;"	p	class:Stemmer.step2list
@@ -269,20 +251,16 @@ latex_documents	source/conf.py	/^latex_documents = [$/;"	v
 latex_elements	source/conf.py	/^latex_elements = {$/;"	v
 length	build/html/_static/underscore.js	/^    var length = aStack.length;$/;"	v
 logi	build/html/_static/language_data.js	/^    logi: 'log'$/;"	p	class:Stemmer.step2list
-long_description	src/alabaste/setup.py	/^    long_description=readme,$/;"	v
 man_pages	source/conf.py	/^man_pages = [$/;"	v
 master_doc	source/conf.py	/^master_doc = 'index'$/;"	v
-master_doc	src/alabaste/docs/conf.py	/^master_doc = "index"$/;"	v
 memoize	build/html/_static/underscore.js	/^    var memoize = function(key) {$/;"	f	function:_.memoize
 n	build/html/_static/underscore.js	/^    '\\n': 'n',$/;"	p	class:escapes
-name	src/alabaste/setup.py	/^    name="alabaster",$/;"	v
 nativeForEach	build/html/_static/underscore-1.3.1.js	/^    nativeForEach      = ArrayProto.forEach,$/;"	v
 nativeIsArray	build/html/_static/underscore.js	/^  var nativeIsArray = Array.isArray,$/;"	v
 ness	build/html/_static/language_data.js	/^    ness: ''$/;"	p	class:Stemmer.step3list
 noMatch	build/html/_static/underscore.js	/^  var noMatch = \/(.)^\/;$/;"	v
 nodelist	build/html/_static/underscore.js	/^  var nodelist = root.document && root.document.childNodes;$/;"	v
 nonEnumerableProps	build/html/_static/underscore.js	/^  var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString',$/;"	v
-ns	src/alabaste/tasks.py	/^ns = Collection(release, docs, travis, checks.blacken)$/;"	v
 objNameMatch	build/html/_static/searchtools.js	/^    objNameMatch: 11,$/;"	p	class:var.Scorer
 objPartialMatch	build/html/_static/searchtools.js	/^    objPartialMatch: 6,$/;"	p	class:var.Scorer
 objPrio	build/html/_static/searchtools.js	/^    objPrio: {0:  15,   \/\/ used to be importantResults$/;"	p	class:var.Scorer
@@ -290,21 +268,16 @@ objectterms	build/html/_static/searchtools.js	/^    var objectterms = [];$/;"	v
 optimizeCb	build/html/_static/underscore.js	/^  var optimizeCb = function(func, context, argCount) {$/;"	f
 ousli	build/html/_static/language_data.js	/^    ousli: 'ous',$/;"	p	class:Stemmer.step2list
 ousness	build/html/_static/language_data.js	/^    ousness: 'ous',$/;"	p	class:Stemmer.step2list
-packages	src/alabaste/setup.py	/^    packages=["alabaster"],$/;"	v
 previousUnderscore	build/html/_static/underscore-1.3.1.js	/^  var previousUnderscore = root._;$/;"	v
 previousUnderscore	build/html/_static/underscore.js	/^  var previousUnderscore = root._;$/;"	v
 project	source/conf.py	/^project = u'Loïc VH'$/;"	v
-project	src/alabaste/docs/conf.py	/^project = u"Alabaster"$/;"	v
 pulse	build/html/_static/searchtools.js	/^    function pulse() {$/;"	f
 push	build/html/_static/underscore.js	/^  var push = ArrayProto.push,$/;"	v
 pygments_style	source/conf.py	/^pygments_style = None$/;"	v
 r	build/html/_static/underscore.js	/^    '\\r': 'r',$/;"	p	class:escapes
 reStrSymbol	build/html/_static/underscore.js	/^  var reStrSymbol = \/[^\\ud800-\\udfff]|[\\ud800-\\udbff][\\udc00-\\udfff]|[\\ud800-\\udfff]\/g;$/;"	v
-readme	src/alabaste/setup.py	/^    readme = f.read()$/;"	v
 reducer	build/html/_static/underscore.js	/^    var reducer = function(obj, iteratee, memo, initial) {$/;"	f	function:createReduce
 release	source/conf.py	/^release = ''$/;"	v
-releases_github_path	src/alabaste/docs/conf.py	/^releases_github_path = "bitprophet\/alabaster"$/;"	v
-releases_unstable_prehistory	src/alabaste/docs/conf.py	/^releases_unstable_prehistory = True$/;"	v
 restArguments	build/html/_static/underscore.js	/^  var restArguments = function(func, startIndex) {$/;"	f
 resultCount	build/html/_static/searchtools.js	/^    var resultCount = results.length;$/;"	v
 results	build/html/_static/searchtools.js	/^    var results = [];$/;"	v
@@ -312,21 +285,17 @@ return	build/html/_static/underscore-1.3.1.js	/^    return bound = function() {$
 rv	build/html/_static/searchtools.js	/^    var rv = $('<div class="context"><\/div>').text(excerpt);$/;"	v
 scoreMap	build/html/_static/searchtools.js	/^    var scoreMap = {};$/;"	v
 searchterms	build/html/_static/searchtools.js	/^    var searchterms = [];$/;"	v
-setup	src/alabaste/alabaster/__init__.py	/^def setup(app):$/;"	f
 shallowProperty	build/html/_static/underscore.js	/^  var shallowProperty = function(key) {$/;"	f
 size	build/html/_static/underscore-1.3.1.js	/^    var size = 0, result = true;$/;"	v
 slice	build/html/_static/underscore-1.3.1.js	/^  var slice            = ArrayProto.slice,$/;"	v
 source_suffix	source/conf.py	/^source_suffix = '.rst'$/;"	v
-source_suffix	src/alabaste/docs/conf.py	/^source_suffix = ".rst"$/;"	v
 splitQuery	build/html/_static/language_data.js	/^function splitQuery(query) {$/;"	f
 splitQuery	build/html/_static/searchtools.js	/^  function splitQuery(query) {$/;"	f	function:function
 start	build/html/_static/searchtools.js	/^    var start = 0;$/;"	v
 stemWord	build/html/_static/language_data.js	/^  this.stemWord = function (w) {$/;"	m	class:Stemmer
 stopwords	build/html/_static/language_data.js	/^var stopwords = ["a","and","are","as","at","be","but","by","for","if","in","into","is","it","near","no","not","of","on","or","such","that","the","their","then","there","these","they","this","to","was","will","with"];$/;"	v
-styles	src/alabaste/alabaster/support.py	/^    styles = {$/;"	v	class:Alabaster
 template	build/html/_static/underscore.js	/^    var template = function(data) {$/;"	f	function:var
 templates_path	source/conf.py	/^templates_path = ['_templates']$/;"	v
-templates_path	src/alabaste/docs/conf.py	/^templates_path = ["_templates"]$/;"	v
 texinfo_documents	source/conf.py	/^texinfo_documents = [$/;"	v
 throttled	build/html/_static/underscore.js	/^    var throttled = function() {$/;"	f
 throttled.cancel	build/html/_static/underscore.js	/^    throttled.cancel = function() {$/;"	f
@@ -335,11 +304,6 @@ tmp	build/html/_static/searchtools.js	/^    var tmp = splitQuery(query);$/;"	v
 toString	build/html/_static/underscore.js	/^  _.prototype.toString = function() {$/;"	m	class:_
 u2028	build/html/_static/underscore.js	/^    '\\u2028': 'u2028',$/;"	p	class:escapes
 u2029	build/html/_static/underscore.js	/^    '\\u2029': 'u2029'$/;"	p	class:escapes
-update_context	src/alabaste/alabaster/__init__.py	/^def update_context(app, pagename, templatename, context, doctree):$/;"	f
-url	src/alabaste/setup.py	/^    url="https:\/\/alabaster.readthedocs.io",$/;"	v
 value	build/html/_static/underscore.js	/^  _.prototype.value = function() {$/;"	m	class:_
 valueOf	build/html/_static/underscore.js	/^  _.prototype.valueOf = _.prototype.toJSON = _.prototype.value;$/;"	m	class:_
 version	source/conf.py	/^version = ''$/;"	v
-version	src/alabaste/setup.py	/^    version=version,$/;"	v
-version	src/alabaste/setup.py	/^version = _locals["__version__"]$/;"	v
-year	src/alabaste/docs/conf.py	/^year = datetime.now().year$/;"	v

@@ -19,6 +19,10 @@ About
 _____
 
 
-Hello ! I am currently doing my PhD with `Pierre-Antoine Absil <https://sites.uclouvain.be/absil/>`_ and `Anthony Papavasiliou <https://perso.uclouvain.be/anthony.papavasiliou/public_html/>`_
+Hello ! I am currently doing my PhD with `Pierre-Antoine Absil <https://sites.uclouvain.be/absil/>`_ and `Anthony Papavasiliou <https://perso.uclouvain.be/anthony.papavasiliou/public_html/>`_.
 
+.. image:: data/images/IMG_E6823_r.jpeg
+    :width: 600
+    :align: center
+    :alt: Chilling
 
