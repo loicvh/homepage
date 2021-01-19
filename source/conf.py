@@ -18,9 +18,12 @@ import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_fontawesome
 # -- Project information -----------------------------------------------------
+import datetime
+
+year = datetime.datetime.now().year
 
 project = u'Loïc VH'
-copyright = u'2020, Loïc Van Hoorebeeck'
+copyright = u''+str(year)+', Loïc Van Hoorebeeck'
 author = u'Loïc Van Hoorebeeck'
 
 # The short X.Y version
