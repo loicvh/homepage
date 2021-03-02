@@ -34,5 +34,5 @@ Reference
   Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints,
   Electric Power Systems Research, Volume 189, 2020, ISSN 0378-7796, https://doi.org/10.1016/j.epsr.2020.106786.
   (:download:`preprint <../data/PSCC_2020.pdf>`,
-  `abstract/BibTex <EPSR20.html>`_,
+  `abstract/BibTex <EPSR20.html>`__,
   `code <https://gitlab.com/Loicvh/apla>`_)

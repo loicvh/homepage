@@ -31,7 +31,7 @@ Reference
 
 - (2019)  L. Van Hoorebeeck, J. Cavillot, H. Bui-Van, F. Glineur, C. Craeye and E. de Lera Acedo,
   "**Near-field calibration of SKA-Low stations using unmanned aerial vehicles**,"
-  13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (`abstract/BibTex <EUCAP19.html>`_,
+  13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (`abstract/BibTex <EUCAP19.html>`__,
   `IEEE Xplore <https://ieeexplore.ieee.org/document/8739380>`__)
 
 Slides
