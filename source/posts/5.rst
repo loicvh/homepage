@@ -1,0 +1,9 @@
+A non-Euclidean Sokoban
+=======================
+
+A `Sokoban <https://en.wikipedia.org/wiki/Sokoba://en.wikipedia.org/wiki/Sokoban>`_ is a puzzle video game where the user has to push boxes at the right place. You can find a famous instance `here <https://www.mathsisfun.com/games/sokoban.html>`_, but what happens when you are playing in a non-Euclidean space? 
+
+You'll find it in `Alex Lang's instance <https://sokyokuban.com>`_... Enjoy!
+
+
+.. rubric:: Posted on 2021-01-25
