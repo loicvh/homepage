@@ -9,3 +9,5 @@ _____________
 
 :fa:`globe` `My personal site <https://loicvh.eu/>`_
 
+My Erdös Number is 4 thanks to `Pierre-Antoine <https://sites.uclouvain.be/absil/>`_.
+
