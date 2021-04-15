@@ -1,12 +1,12 @@
 :orphan:
 
-Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy
+Solving Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy
 ___________________________________________________________________________________________________________
 
 Abstract
 ========
 
-The economic dispatch problem is a fundamental problem in power system operations. An extensive body of literature has focused on providing fast and robust algorithms for solving the various instances of the economic dispatch. In order to capture physical effects such as the power losses of the network or the valve-point loading effect of combined cycle gas turbines, non-convex models of the economic dispatch have been considered. However, these features of the problem render the convergence analysis more challenging, and few methods in the literature provide insights on the global optimality of the derived solution. In this work, we propose an algorithm that efficiently provides a feasible solution, along with a lower bound, to a non-smooth and non-convex instance of the economic dispatch problem. We test our method on extensively studied test cases. 
+The economic dispatch problem is a fundamental problem in power system operations. An extensive body of literature has focused on providing fast and robust algorithms for solving the various instances of the economic dispatch. In order to capture physical effects such as the power losses of the network or the valve-point loading effect of combined cycle gas turbines, non-convex models of the economic dispatch have been considered. However, these features of the problem render the convergence analysis more challenging, and few methods in the literature provide insights on the global optimality of the derived solution. In this work, we propose an algorithm that efficiently provides a feasible solution, along with a lower bound, to a non-smooth and non-convex instance of the economic dispatch problem. We test our method on extensively studied test cases, and show that, in comparison with state-of-the-art methods and within a comparable computation time, it provides a solution with a much lower deviation from the power balance constraint, while furthermore producing a lower bound with an optimality gap below one percent.
 
 BibTex
 ======
@@ -14,10 +14,10 @@ BibTex
 ::
 
         @article{vh21,
-        title = "Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy",
+        title = "Solving Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy",
         journal = "International Journal of Electrical Power \& Energy Systems",
         year = "2021",
-        note = "preprint on webpage at https://perso.uclouvain.be/loic.vanhoorebeeck/abstracts/JEPE_2021.html",
+        note = "preprint on webpage at \url{https://perso.uclouvain.be/loic.vanhoorebeeck/abstracts/JEPE_2021.html}",
         author = "Loïc {Van Hoorebeeck} and P.-A. Absil and Anthony Papavasiliou",
         }
 
@@ -25,7 +25,7 @@ Reference
 =========
 
 - (2021) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou, 
-  "**Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy**",
+  "**Solving Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy**",
   International Journal of Electrical Power & Energy Systems (JEPE), submitted.
   (:download:`preprint <../data/JEPE_2021.pdf>`,
   `abstract/BibTex <JEPE_2021.html>`__,
