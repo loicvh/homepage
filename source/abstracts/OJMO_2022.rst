@@ -1,0 +1,30 @@
+:orphan:
+
+Projection onto quadratic hypersurfaces
+___________________________________________________________________________________________________________
+
+Abstract
+========
+
+We address the problem of projecting a point onto a quadratic hypersurface, more specifically a central quadric. We show how this problem reduces to finding a given root of a scalar-valued nonlinear function. We completely characterize one of the optimal solutions of the projection as either the unique root of this nonlinear function on a given interval, or as a point that belongs to a finite set of computable solutions. We then leverage this projection and the recent advancements in splitting methods to compute the projection onto the intersection of a box and a quadratic hypersurface with alternating projections and Douglas-Rachford splitting methods. We test these methods on a practical problem from the power systems literature, and show that they outperform IPOPT and Gurobi in terms of objective, execution time and feasibility of the solution. 
+
+BibTex
+======
+
+::
+
+        @misc{projection_vh_21,
+        title = {Projection onto quadratic hypersurfaces},
+        year = {2021},
+        note = {submitted},
+        author = {Loïc {Van Hoorebeeck} and P.-A. Absil and Anthony Papavasiliou},
+        }
+
+Reference
+=========
+
+- (2021) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou,
+  "**Projection onto quadratic hypersurfaces**", submitted.
+  (:download:`preprint <../data/OJMO_2022_preprint.pdf>`,
+  `abstract/BibTex <OJMO_2022.html>`__)
+

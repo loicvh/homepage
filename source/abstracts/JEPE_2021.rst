@@ -13,20 +13,25 @@ BibTex
 
 ::
 
-        @article{vh21,
-        title = "Solving Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy",
-        journal = "International Journal of Electrical Power \& Energy Systems",
-        year = "2021",
-        note = "preprint on webpage at \url{https://perso.uclouvain.be/loic.vanhoorebeeck/abstracts/JEPE_2021.html}",
-        author = "Loïc {Van Hoorebeeck} and P.-A. Absil and Anthony Papavasiliou",
+        @article{vh22,
+        title = {Solving Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy},
+        journal = {International Journal of Electrical Power \& Energy Systems},
+	volume = {134},
+	issn = {0142-0615},
+	url = {https://www.sciencedirect.com/science/article/pii/S0142061521003823},
+	doi = {10.1016/j.ijepes.2021.107143},
+        year = {2022},
+        author = {Loïc {Van Hoorebeeck} and P.-A. Absil and Anthony Papavasiliou},
         }
 
 Reference
 =========
 
-- (2021) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou, 
-  "**Solving Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy**",
-  International Journal of Electrical Power & Energy Systems (JEPE), submitted.
+- (2022) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou, 
+  "**Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy**",
+  International Journal of Electrical Power & Energy Systems (JEPE), Volume 134, January 2022, https://doi.org/10.1016/j.ijepes.2021.107143.
   (:download:`preprint <../data/JEPE_2021.pdf>`,
   `abstract/BibTex <JEPE_2021.html>`__,
-  `code <https://gitlab.com/Loicvh/apla-rsg>`__)
+  `code <https://gitlab.com/Loicvh/apla-rsg>`__,
+  `doc <https://perso.uclouvain.be/loic.vanhoorebeeck/doc/APLA-RSG/>`_)
+

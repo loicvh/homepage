@@ -4,6 +4,7 @@ Blog
 .. toctree::
    :maxdepth: 1
 
+      Dealing with large terminal logs <posts/6.rst>
       A non-Euclidean puzzle <posts/5.rst>
       A little citation from Steinbeck <posts/4.rst>
       Planing a bike trip <posts/3.rst>

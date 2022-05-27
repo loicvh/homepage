@@ -9,19 +9,28 @@ Research
 
 Preprint
 ~~~~~~~~
+- (2021) L. Van Hoorebeeck, P.-A. Absil, and A. Papavasiliou, 
+  "**Projection onto quadratic hypersurfaces**", submitted. (:download:`preprint <data/OJMO_2022_preprint.pdf>`, `abstract/BibTex <abstracts/OJMO_2022.html>`__)
 
-- (2021) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou, 
-  "**Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy**",
-  International Journal of Electrical Power & Energy Systems (JEPE), submitted.
-  (:download:`preprint <data/JEPE_2021.pdf>`,
-  `abstract/BibTex <abstracts/JEPE_2021.html>`__,
-  `code <https://gitlab.com/Loicvh/apla-rsg>`__,
-  `doc <https://perso.uclouvain.be/loic.vanhoorebeeck/doc/APLA-RSG/>`_)
+Thesis
+~~~~~~
+
+- "**Nonconvex and nonsmooth economic dispatch**," PhD Thesis, May 2022.
+  (Advisors: P.-A. Absil and A. Papavasiliou, :download:`pdf <data/Nonconvex_and_nonsmooth_economic_dispatch.pdf>`)
+- "**Calibration of the SKA-low antenna array using drones**," Master Thesis, June 2018.
+  (Advisors: C. Craeye and F. Glineur, `pdf <https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A14813>`__)
 
 
 Journal papers
 ~~~~~~~~~~~~~~
-- (2020) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou, 
+- (2022) L. Van Hoorebeeck, P.-A. Absil, and A. Papavasiliou, 
+  "**Non-Convex Economic Dispatch with Valve-Point Effects and Losses with Guaranteed Accuracy**",
+  International Journal of Electrical Power & Energy Systems (JEPE), Volume 134, January 2022, https://doi.org/10.1016/j.ijepes.2021.107143.
+  (:download:`preprint <data/JEPE_2021.pdf>`,
+  `abstract/BibTex <abstracts/JEPE_2021.html>`__,
+  `code <https://gitlab.com/Loicvh/apla-rsg>`__,
+  `doc <https://perso.uclouvain.be/loic.vanhoorebeeck/doc/APLA-RSG/>`_)
+- (2020) L. Van Hoorebeeck, P.-A. Absil, and A. Papavasiliou, 
   "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**",
   Electric Power Systems Research, Volume 189, 2020, ISSN 0378-7796, https://doi.org/10.1016/j.epsr.2020.106786.
   (:download:`preprint <data/PSCC_2020.pdf>`,
@@ -31,29 +40,28 @@ Journal papers
 Refereed conference papers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- (2020) L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
+- (2020) L. Van Hoorebeeck, P.-A. Absil, and A. Papavasiliou,
   "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**,"
   2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020.
   (:download:`preprint <data/PSCC_2020.pdf>`,
   `abstract/BibTex <abstracts/PSCC2020.html>`__,
   `code <https://gitlab.com/Loicvh/apla>`__)
-- (2019) L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
+- (2019) L. Van Hoorebeeck, P.-A. Absil, and A. Papavasiliou,
   "**MILP-Based Algorithm for the Global Solution of Dynamic Economic Dispatch Problems with Valve-Point Effects**,"
   2019 IEEE Power & Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5. (:download:`preprint <data/PES_2019.pdf>`,
   `abstract/BibTex <abstracts/PES19.html>`__,
   `IEEE Xplore <https://ieeexplore.ieee.org/document/8973631>`__)
 
-- (2019)  L. Van Hoorebeeck, J. Cavillot, H. Bui-Van, F. Glineur, C. Craeye and E. de Lera Acedo,
+- (2019)  L. Van Hoorebeeck, J. Cavillot, H. Bui-Van, F. Glineur, C. Craeye, and E. de Lera Acedo,
   "**Near-field calibration of SKA-Low stations using unmanned aerial vehicles**,"
   13th European Conference on Antennas and Propagation (EuCAP), Krakow, Poland, 2019, pp. 1-5. (`abstract/BibTex <abstracts/EUCAP19.html>`__,
   `IEEE Xplore <https://ieeexplore.ieee.org/document/8739380>`__)
 
 
-Thesis
-~~~~~~
+Code
+~~~~
 
-- "**Calibration of the SKA-low antenna array using drones**," Master Thesis, June 2018.
-  (Advisers: C. Craeye and F. Glineur, `pdf <https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A14813>`__)
+- (2022, **quadproj**): a package to project onto a quadric (`pypi <https://pypi.org/project/quadproj/>`__, `doc <https://loicvh.gitlab.io/quadproj/>`__).
 
 Research Problems
 ~~~~~~~~~~~~~~~~~

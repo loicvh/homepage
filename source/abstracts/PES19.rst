@@ -30,7 +30,7 @@ Reference
 =========
 
 
-- (2019) L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
+- (2019) L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou,
   "**MILP-Based Algorithm for the Global Solution of Dynamic Economic Dispatch Problems with Valve-Point Effects**,"
   2019 IEEE Power & Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5. (:download:`preprint <../data/PES_2019.pdf>`,
   `abstract/BibTex <abstracts/PES19.html>`__,

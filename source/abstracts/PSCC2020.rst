@@ -28,7 +28,7 @@ BibTex
 Reference
 =========
 
-- L. Van Hoorebeeck, P.-.A Absil and A. Papavasiliou,
+- L. Van Hoorebeeck, P.-A. Absil and A. Papavasiliou,
   "**Global Solution of Economic Dispatch with Valve Point Effects and Transmission Constraints**,"
   2020 Power Systems Computation Conference (PSCC), Porto, Portugal, 2020.
   (:download:`preprint <../data/PSCC_2020.pdf>`,

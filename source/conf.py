@@ -22,7 +22,7 @@ import datetime
 
 year = datetime.datetime.now().year
 
-project = u'Loïc VH'
+project = u'Loïc Van Hoorebeeck'
 copyright = u''+str(year)+', Loïc Van Hoorebeeck'
 author = u'Loïc Van Hoorebeeck'
 

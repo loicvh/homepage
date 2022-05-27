@@ -1,0 +1,29 @@
+Dealing with large terminal logs
+================================
+
+I often find myself running codes that produce *lots* of logs, such that it overflows the terminal history. This brings the frustrating situation where you know your code messed up somewhere, but you cannot go back long enough to find where.
+
+Moreover, the terminal prompt does not let me use my vim-like keyboard shortcuts; even if it is possible to do so with `tmux <https://github.com/tmux/tmux>`_, the history overflow remains a thing.
+
+I found three solutions to this issue:
+
+        * Less logs;
+        * Increase the buffer size;
+        * Run the program with `nohup` in the background.
+
+Obviously the third solution is the only one we should consider... For example, if you want to run 
+::
+
+        python3 my_script.py
+
+and gets the output to *stdout*, we rather run
+
+::
+
+        nohup python3 my_script.py > my_logs.txt &
+and gets the output to `my_logs.txt`, that you can now scrutinize as long as you want using *vim*.
+
+It is particularly useful if, as me, you like to launch simulations that take forever via *ssh*!
+
+
+.. rubric:: Posted on 2021-09-10
