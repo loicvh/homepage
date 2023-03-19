@@ -3,10 +3,10 @@ Contact
 
 Email
 -----
-Replace ``VictorHotel`` by ``vanhoorebeeck`` to get my real email addresses.
+Replace ``&`` by ``loic`` and ``[underscore]`` by ``_`` to get my real mail address.
 This is to hinder `spambots <https://en.wikipedia.org/wiki/Spambot#E-mail_spambots>`__.
 
-- loic.VictorHotel@uclouvain.be
+- &[underscore]contact@&vh.eu
 
 Office
 ------

@@ -1,8 +1,9 @@
 Teaching activities at UCLouvain
 --------------------------------
 
+- Algorithms in Data Science (LINMA2472), 2022.
 - Economics (LEPL1803), Teaching Assistant, 2021.
-- Statistics and data sciences (LEPL1109), Teaching Assistant, 2020.
+- Statistics and data sciences (LEPL1109), Teaching Assistant, 2020-2022.
 - Discrete mathematics and statistics (LEPL1108), Teaching Assistant, 2019. 
 - Economics (LEPL1803), Teaching Assistant, 2019.
 - Optimization I (LINMA1702), Monitoring student, 2018.

@@ -19,7 +19,9 @@ About
 _____
 
 
-Hello ! I am currently doing my PhD with `Pierre-Antoine Absil <https://sites.uclouvain.be/absil/>`_ and `Anthony Papavasiliou <https://perso.uclouvain.be/anthony.papavasiliou/public_html/>`_.
+Hello stranger! I am Loïc and I conducted a PhD in applied mathematics (titled *nonconvex and nonsmooth economic dispatch*) under the supervision of `Pierre-Antoine Absil <https://sites.uclouvain.be/absil/>`_ and `Anthony Papavasiliou <https://perso.uclouvain.be/anthony.papavasiliou/public_html/>`_ at UCLouvain (Louvain-la-Neuve, Belgium) from 2018 to 2022.
+
+I no longer work in academia, but I am keeping these pages online; this might serve some day...
 
 .. image:: data/images/IMG_E6823_r.jpeg
     :width: 600

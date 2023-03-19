@@ -9,6 +9,8 @@ Research
 
 Preprint
 ~~~~~~~~
+- (2022) L. Van Hoorebeeck, and P.-A. Absil, 
+  "**Quadproj: a Python package for projecting onto quadratic hypersurfaces**". (`preprint <https://arxiv.org/abs/2211.00548>`__)
 - (2021) L. Van Hoorebeeck, P.-A. Absil, and A. Papavasiliou, 
   "**Projection onto quadratic hypersurfaces**", submitted. (:download:`preprint <data/OJMO_2022_preprint.pdf>`, `abstract/BibTex <abstracts/OJMO_2022.html>`__)
 
@@ -101,7 +103,6 @@ This function is the sum of a smooth quadratic part (:math:`f^{\text{Q}}`) and a
 Here, we will need some tricks to tackle this problem. This will be explained soon, but first let's look at the constraints.
 
 
-
 Feasible Set
 ------------
 
@@ -117,17 +118,75 @@ Algorithm
 How do we deal with such a problem? There are two different strategies: i) we target a fast and good solution with a heuristic and ii) we try to have some guarantees with respect to the finale solution. Here, we want to focus on the second case and therefore obtain a good solution along with a lower bound; we want to sandwich the optimal solution. The key here is to use a *relaxation* defined as follows.
 
 .. pull-quote::
-    A *relaxation* of a given (minimization) optimization problem is another optimization problem of a new function on a new feasible set such that the relaxed objective if an underapproximation of the original objective and the relaxed set contains the original feasible set.
+    A *relaxation* of a given (minimization) optimization problem is another optimization problem of a new function on a new feasible set such that the relaxed objective if an under-approximation of the original objective and the relaxed set contains the original feasible set.
 
-Here with a slight abuse of language, I will consider separately the increasing of the feasible set (which I will call *relaxation*) and the underapproximation of the objective.
+Here with a slight abuse of language, I will consider separately the increasing of the feasible set (which I will call *relaxation*) and the under-approximation of the objective.
+
+
+Under-approximation of the objective
+************************************
+
+Because dealing with the nonlinear objective :math:`f` is difficult, we rather work on a sequence of *surrogate* objective functions :math:`(h^k)_{k \in \mathbb{N}}`.
+This surrogate objective function is obtained as the interpolation of :math:`f` given a set of initial points (called *knots*) :math:`\mathbf{X}^0`.
+
+As :math:`f` is *piecewise concave* and the initial set of knots contains the points of curvature change, the initial surrogate function is an under-approximation:
+
+.. math::
+        
+        h^0(x) \leq f(x) \quad \text{for all feasible } x.
+
+The idea of the algorithm is to solve the surrogate optimization problem that is obtained **by solving the ED problem with the surrogate objective function** (instead of the real objective :math:`f`). 
+
+Indeed, we can model this problem as a mixed-integer programming (MIP) problem and then leverage the many MIP solvers (*e.g.*, Gurobi, Cplex).
+Howver, there is a price to pay. The objective function value returned by the solver is an under-approximation of the global solution value.
+
+If :math:`x^0` is the solution returned by the solver for the initial surrogate problem defined with :math:`h^0` and :math:`x^*` is the optimal solution value , then we directly have
+
+
+.. math::
+
+       h^0(x^0) \leq h^0(x^*)  \leq f(x^*) \leq f(x^0).
+
+The first inequality comes from the optimality of :math:`x^0` for the surrogate problem, the second inequality is true because our surrogate function under-approximates :math:`f`, and the last inequality comes from the optimality of :math:`x^*`. 
+
+**We just sandwiched the optimal objective function value** :math:`f(x^*)` **between two known quantities:** :math:`h^0(x^0)` **and** :math:`f(x^0)` **!** 
+
+We can therefore compute the (initial) *optimality gap* :math:`\delta^0`, that is, the difference between the best known upper and lower bound:
+
+.. math::
+
+       \delta^0 := f(x^0) - h^0(x^0). 
+
+If this gap is below the user prescribed tolerance, then we basically won: we found the optimal function value (Yay!). But if we want to reduce this gap, we will iterate by improving our under-approximation.
+This can be done by *adding the obtained solution* :math:`x^0` *to the set of knots* : :math:`\mathbf{X}^1 = \mathbf{X^0 \bigcup \big \{ x^0 \big \}}`.
+
+With this knot updating mechanism, we can prove the following:
+
+- For all :math:`k =0,1,\dots`, the function :math:`h^k` under-approximates :math:`f`, that is, :math:`h^k(x) \leq f(x)` for all :math:`x`.  
+
+- The sequence of functions :math:`(h^k)_{k \in \mathbb{N}}` is increasing, that is, :math:`h^k(x) \leq f(x)` for all feasible :math:`x`.
+
+- The sequence converge to the optimal solution value: :math:`\lim_{k \to \infty} \delta^k =0`. 
+
+The algorithm is depicted in the following gif (but remember that we have *several* units and therefore a separate sum of 1D function).
 
 .. image:: data/images/algo_gif.gif
     :align: center  
     :alt: Illustration of the VPE.
 
---------
+Going further
+*************
 
-This section is work in progress!
+`This <abstracts/PES19.html>`__ is the paper that details this algorithm, denoted as the adaptive piecewise-linear approximation (APLA).
+
+A heuristic of the algorithm is given in `this paper <abstracts/PSCC2020.html>`__.
+
+The algorithm (and heuristic) is adapted to deal with transmission constraints in `this paper <abstracts/EPSR20.html>`__ and coupled with a Riemannian subgradient descent scheme (APLA-RSG).
+
+
+ 
+ 
+--------
 
 .. rubric:: Footnotes
 
